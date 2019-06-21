@@ -8,7 +8,6 @@ import java.nio.file.StandardOpenOption;
 public class Task1 {
 
     public static void main(String[] args) {
-        Task1 task1 = new Task1();
         String s = "F";
         StringTransformer stringTransformer = s1 -> s1.replace(s1, s1 + "+" + s1 + "--" + s1 + "+" + s1);
         s = stringTransformer.transform(s, 10);

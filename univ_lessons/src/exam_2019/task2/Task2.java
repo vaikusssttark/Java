@@ -1,6 +1,8 @@
 package exam_2019.task2;
 
-import task1.StringTransformer;
+
+
+import exam_2019.task1.StringTransformer;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,17 +10,17 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
 public class Task2 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String firstSquare = "<rect x=\"0\" y=\"0\" width=\"100\" height=\"100\"/>";
         StringTransformer st = s -> {
-            String s1 = "";
+            StringBuilder s1 = new StringBuilder();
             for (int x = 0; x < 3; x++)
                 for (int y = 0; y < 3; y++) {
                     if (x != 1 || y != 1) {
-                        s1 = s1 + String.format("<g transform=\"translate(%d, %d)\">\n\t%s\n</g>\n", x * 100, y * 100, s);
+                        s1.append(String.format("<g transform=\"translate(%d, %d)\">\n\t%s\n</g>\n", x * 100, y * 100, s));
                     }
                 }
-            return String.format("<g transform=\"scale(0.333333333333 0.3333333333333)\">\n%s\n</g>", s1);
+            return String.format("<g transform=\"scale(0.333333333333 0.3333333333333)\">\n%s\n</g>", s1.toString());
         };
 
         String s = st.transform(firstSquare, 5);
