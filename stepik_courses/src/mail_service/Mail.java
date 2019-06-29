@@ -53,9 +53,9 @@ public class Mail {
             if (mail instanceof MailMessage) {
                 MailMessage message = (MailMessage) mail;
                 if (message.getFrom().equals("Austin Powers"))
-                    logger.log(Level.WARNING, "Detected target mail correspondence: from {from} to {to} \"{message}\"", new Object[] {message.getFrom(), message.getTo(), message.getMessage()});
+                    logger.log(Level.WARNING, "Detected target mail correspondence: from {0} to {1} \"{2}\"", new Object[] {message.getFrom(), message.getTo(), message.getMessage()});
                 else
-                    logger.log(Level.INFO, "Usual correspondence: from {from} to {to}", new Object[]{message.getFrom(), message.getTo()});
+                    logger.log(Level.INFO, "Usual correspondence: from {0} to {1}", new Object[]{message.getFrom(), message.getTo()});
             }
             return mail;
         }
@@ -77,7 +77,7 @@ public class Mail {
                 int price1 = mailPackage.getContent().getPrice();
                 if (price1 >= this.price) {
                     stolenValue += price1;
-                    return new MailPackage(mailPackage.getFrom(), mailPackage.getTo(), new Package("stones instead of " + ((MailPackage) mail).getContent(), 0));
+                    return new MailPackage(mailPackage.getFrom(), mailPackage.getTo(), new Package("stones instead of " + ((MailPackage) mail).getContent().getContent(), 0));
                 }
             }
             return mail;
