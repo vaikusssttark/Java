@@ -1,4 +1,4 @@
-package robot_with_exception;
+package exceptions_and_loggers.robot_with_exception;
 
 //Реализация выброса своего исключения и обработка других по опр. условиям
 

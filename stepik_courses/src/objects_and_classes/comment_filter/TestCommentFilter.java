@@ -1,4 +1,4 @@
-package comment_filter;
+package objects_and_classes.comment_filter;
 
 //Реализация проверки комментариев с использованием interface, abstract class, enum
 

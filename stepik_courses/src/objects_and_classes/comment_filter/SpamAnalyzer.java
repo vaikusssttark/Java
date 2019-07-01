@@ -1,4 +1,4 @@
-package comment_filter;
+package objects_and_classes.comment_filter;
 
 public class SpamAnalyzer extends KeywordAnalyzer{
 

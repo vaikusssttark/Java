@@ -1,3 +1,5 @@
+package objects_and_classes;
+
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 

@@ -1,3 +1,5 @@
+package objects_and_classes;
+
 import java.util.Objects;
 
 //Реализация hashCode() и equals(Object o)

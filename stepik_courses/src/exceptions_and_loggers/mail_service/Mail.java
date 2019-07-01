@@ -1,4 +1,4 @@
-package mail_service;
+package exceptions_and_loggers.mail_service;
 
 import java.util.Objects;
 import java.util.logging.Level;

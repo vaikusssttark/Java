@@ -1,3 +1,5 @@
+package exceptions_and_loggers;
+
 import java.util.Arrays;
 
 //Реализация вывода полного имени класса и метода, в котором был вызван данный.

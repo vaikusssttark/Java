@@ -1,4 +1,4 @@
-//Реализован вызов исключения в собств. методе
+package exceptions_and_loggers;//Реализован вызов исключения в собств. методе
 
 public class SqrtWithExeption {
     public static void main(String[] args) {

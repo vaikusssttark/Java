@@ -1,3 +1,5 @@
+package objects_and_classes;
+
 import java.util.function.DoubleUnaryOperator;
 
 //Реализация числ. интегрирования заданной функции с помощью метода левых прямоугольников
