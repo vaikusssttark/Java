@@ -1,2 +1,2 @@
 # Java
-Universety &amp;&amp; Stepik
+University &amp;&amp; Stepik
