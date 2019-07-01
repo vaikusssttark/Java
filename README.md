@@ -1,2 +1,2 @@
-# Java2019
-FractalMultithread &amp;&amp; SVGproj
+# Java
+University &amp;&amp; Stepik
