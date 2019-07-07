@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Stream;
@@ -17,7 +16,6 @@ public class WordCounter {
             Stream<String> bufferStream = bufferedReader.lines();
 
             bufferStream.map(String::toLowerCase)
-                    .peek(System.out::println)
                     .forEach(sb::append);
 
             String[] words = sb.toString().toLowerCase().split("[^a-zа-я0-9]+");
@@ -33,7 +31,7 @@ public class WordCounter {
             map.entrySet().stream()
                     .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
                     .limit(10)
-                    .forEach(n -> System.out.println(n));
+                    .forEach(n -> System.out.println(n.getKey()));
         } catch (Exception e) {
             e.printStackTrace();
         }
