@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c7ab644-c455-43dc-88ae-d98485329807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EndpointHistoricalResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EndpointLatestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OpenExchangeRates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OpenExchangeRatesAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EndpointCurrenciesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EndpointHistoricalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EndpointLatestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/src/EndpointHistoricalResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/src/EndpointLatestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/src/OpenExchangeRates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/src/OpenExchangeRatesAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestingFeatures/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/src/main/java/OpenExchangeRatesAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/src/main/java/SomeDomain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/src/main/java/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../solanteq_test/src/test/java/SomeDomainTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solanteq_test/src/main/java/SomeDomainAPI.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,14 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EndpointLatestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="340">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -167,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/test/java/EndpointHistoricalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EndpointCurrenciesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EndpointLatestTest.java" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -230,11 +208,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenExchangeRatesTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenExchangeRatesTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,6 +286,14 @@
       <option name="presentableId" value="Default" />
       <updated>1570024713737</updated>
     </task>
+    <task id="LOCAL-00001" summary="Прописаны тестовые сценарии для OpenExchangeRates API endpoints:&#10;- /latest.json&#10;- /historical/*.json&#10;- /currencies.json">
+      <created>1570035029822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570035029822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -354,6 +335,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Прописаны тестовые сценарии для OpenExchangeRates API endpoints:&#10;- /latest.json&#10;- /historical/*.json&#10;- /currencies.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Прописаны тестовые сценарии для OpenExchangeRates API endpoints:&#10;- /latest.json&#10;- /historical/*.json&#10;- /currencies.json" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -436,11 +421,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EndpointLatestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="340">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
