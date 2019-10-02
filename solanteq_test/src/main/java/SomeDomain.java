@@ -3,7 +3,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class SomeDomain {
     private static SomeDomain mInstance;
-    private static final String URL_BASE = "http://some_domain.com/";
+    private static final String URL_BASE = "http://makingtalk.site/";
     private Retrofit mRetrofit;
 
     private SomeDomain() {
