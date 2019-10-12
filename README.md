@@ -1,2 +1,2 @@
 # Java
-University &amp;&amp; Stepik
+Java projects
